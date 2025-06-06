@@ -12,6 +12,13 @@
     margin-top: 50px;
 }
 
+.head-email {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #7127BA;
+}
+
 .home-name {
     font-size: 70px;
     margin-top: 20px;
