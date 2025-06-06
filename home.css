@@ -12,6 +12,13 @@
     margin-top: 50px;
 }
 
+.head-dl {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
 .head-email {
     display: flex;
     align-items: center;
