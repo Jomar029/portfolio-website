@@ -1,0 +1,107 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    box-shadow: 0 0 40px #7127BA;
+    margin-top: 50px;
+}
+
+.home-name {
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.home-name-span {
+    color: #8A3DD0;
+}
+
+.home-name-text {
+    font-size: 22px;
+    text-align-last: center;
+    color: #E2C6F7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.home-name-text-span {
+    color: #8A3DD0;
+}
+
+.resume-and-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.home-buttons {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.download-resume {
+    display: flex;
+    align-items: center;
+    background-color: #7127BA;
+    width: fit-content;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+
+.send-email-main {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    color: #7127BA;
+    border: 1px solid #7127BA;
+    transition: transform 0.5s ease;
+}
+
+.download-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.email-icon-area {
+    display: flex;
+    align-items: center;
+}
+
+.email-icon {
+    width: 20px;
+}
+
+.dl-resume, .send-email{
+    margin-left: 1vw;
+}
+
+.arrow-down-main {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-down {
+    width: 20px;
+    margin-top: 133px;
+}
+
+.home-buttons:hover .download-resume, 
+.home-buttons:hover .send-email-main {
+    transform: translateY(-2px);
+    box-shadow: 0 1px 4px #c18bea83 ;
+}

@@ -1,0 +1,116 @@
+html {
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, Roboto, Arial, Helvetica;
+    background-color: #11071F;
+    color: #E2C6F7;
+    margin-top: 70px;
+}
+
+p {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    height: 70px;
+    background-color: #1A0B2E;
+    box-shadow: 0 0 2px #E2C6F7;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    opacity: 0.991;
+}
+
+.nav-name {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 65px;
+    color: #8A3DD0;
+}
+
+.nav-button-area {
+    margin-right: 50px;
+}
+
+.nav-button {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #E2C6F7;
+    font-weight: 500;
+}
+
+section {
+    min-height: 90vh;
+    min-height: 90dvh;
+    padding-bottom: 20px;
+}
+
+
+#about, #projects, #education, footer {
+    background-color: #1A0B2E;
+}
+
+
+.nav-button:hover {
+    color: #8A3DD0;
+}
+
+.top-area {
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-area-title {
+    color: #C18BEA;
+    background-color: #251245;
+    padding: 5px 20px;
+    border-radius: 100px;
+    border: 1px solid #C18BEA;
+    transition: 0.15s ease;
+}
+
+.top-area-title:hover {
+    background-color: #2F1854;
+}
+
+.bot-text-area {
+    display: flex;
+    justify-content: center;
+}
+
+.bot-text {
+    font-size: 22px;
+    width: 70%;
+    text-align-last: center;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 50px;
+}
+
+.footer-nav a,
+.footer-social a {  
+    color: #ccc;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-nav a:hover,
+.footer-social a:hover {
+    color: #fff;
+}

@@ -1,0 +1,84 @@
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-bottom-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+}
+
+.jomar-picture {
+    width: 60%;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.bg-design {
+    background-color: #2F1854;
+    position: absolute;
+    width: 52%;
+    height: 84%;
+    border-radius: 20px;
+    transform: rotate(10deg);
+}
+
+.about-bottom-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-bottom-right-main {
+    width: 80%;
+    text-align: justify;
+}
+
+.about-bottom-right-boxes {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    column-gap: 10px;
+}
+
+.location-area-main {
+    display: inline-block;
+    background-color: #251245;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #2F1854;
+    transition: 0.15s ease  ;
+}
+
+.location-area-main:hover {
+    border: 1px solid #3A1E68;
+}
+
+
+.location-area {
+    display: flex;
+
+}
+
+.icon-gap {
+    margin-bottom: 10px;
+}
+
+.type {
+    color: white;
+    font-weight: 500;
+}
+
+.location-icon, .education-icon {
+    width: 20px;
+    margin-right: 10px;
+}
