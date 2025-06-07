@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 195 195" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+  <g>
+    <linearGradient id="a" x1="28.56" x2="166.44" y1="28.56" y2="166.44" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="1" stop-color="#00bee2" offset="0"/>
+      <stop stop-opacity="1" stop-color="#7127ba" offset="0"/>
+      <stop stop-opacity="1" stop-color="#7127ba" offset="0.591049343106807"/>
+      <stop stop-opacity="1" stop-color="#7127ba" offset="1"/>
+    </linearGradient>
+    <g data-name="Layer 2">
+      <g data-name="10.J">
+        <rect width="195" height="195" fill="url(#a)" rx="97.5" opacity="1" data-original="url(#a)" class=""/>
+        <path fill="#ffffff" d="M106.29 54.84h20.23v57.75a27.66 27.66 0 0 1-3.73 14.33 25.49 25.49 0 0 1-10.41 9.77 31.81 31.81 0 0 1-14.88 3.47q-13.75 0-21.39-6.94t-7.63-19.65h20.35c0 3.85.66 6.65 2 8.38s3.56 2.6 6.68 2.6a7.55 7.55 0 0 0 6.5-3.15c1.52-2.1 2.29-5 2.29-8.81z" opacity="1" data-original="#ffffff"/>
+      </g>
+    </g>
+  </g>
+</svg>
