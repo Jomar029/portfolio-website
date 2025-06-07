@@ -46,7 +46,7 @@
 }
 
 .about-bottom-right-boxes {
-    max-width: 80%;
+    width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 3em;
