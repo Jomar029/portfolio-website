@@ -5,11 +5,11 @@
 }
 
 .main-img {
-    width: 180px;
-    height: 180px;
+    width: 18rem;
+    height: 18rem;
     border-radius: 100px;
-    box-shadow: 0 0 40px #7127BA;
-    margin-top: 50px;
+    box-shadow: 0 0 3.5rem #7127BA;
+    margin-top: 5rem;
 }
 
 .head-dl {
@@ -26,11 +26,19 @@
     color: #7127BA;
 }
 
+.home-name-main {
+    display: flex;
+    justify-content: center;    
+}
+
 .home-name {
-    font-size: 70px;
-    margin-top: 20px;
+    background-color: lightpink;
+    font-size: 7rem;
+    margin-top: .4em;
     margin-bottom: 0;
     color: white;
+    text-align-last: center ;
+    white-space: nowrap;
 }
 
 .home-name-span {
@@ -38,11 +46,12 @@
 }
 
 .home-name-text {
-    font-size: 22px;
+    font-size: 2.2rem;
     text-align-last: center;
     color: #E2C6F7;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 2rem ;
+    text-align: justify;
+    
 }
 
 .home-name-text-span {
@@ -53,7 +62,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 .home-buttons {
@@ -69,8 +78,8 @@
     align-items: center;
     background-color: #7127BA;
     width: fit-content;
-    padding: 10px 30px 10px 30px;
-    border-radius: 8px;
+    padding: .8em 2em;
+    border-radius: 0.8em;
     transition: transform 0.5s ease;
 }
 
@@ -79,16 +88,16 @@
     align-items: center;
     background-color: white;
     width: fit-content;
-    padding: 10px 30px 10px 30px;
-    border-radius: 8px;
+    padding: 1em 2em;
+    border-radius: 0.8em;
     color: #7127BA;
     border: 1px solid #7127BA;
     transition: transform 0.5s ease;
 }
 
-.download-icon {
-    width: 20px;
-    height: 20px;
+.download-icon,.email-icon {
+    width: 2rem;
+    height: 2rem;
 }
 
 .email-icon-area {
@@ -96,12 +105,8 @@
     align-items: center;
 }
 
-.email-icon {
-    width: 20px;
-}
-
 .dl-resume, .send-email{
-    margin-left: 1vw;
+    margin-left: 1em;
 }
 
 .arrow-down-main {
@@ -110,12 +115,27 @@
 }
 
 .arrow-down {
-    width: 20px;
-    margin-top: 133px;
+    width: 2em;
+    margin-top: 10em;
 }
 
 .home-buttons:hover .download-resume, 
 .home-buttons:hover .send-email-main {
     transform: translateY(-2px);
     box-shadow: 0 1px 4px #c18bea83 ;
+}
+
+
+@media (max-width: 600px) {
+
+    .home-name {
+        font-size: 3.5rem;
+    }
+
+    .resume-and-email {
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
 }
