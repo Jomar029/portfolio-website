@@ -12,12 +12,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 5rem;
     position: relative;
 }
 
 .jomar-picture {
-    width: 60%;
+    width: 57%;
     border-radius: 20px;
     z-index: 1;
 }
@@ -25,36 +25,38 @@
 .bg-design {
     background-color: #2F1854;
     position: absolute;
-    width: 52%;
-    height: 84%;
-    border-radius: 20px;
+    width: 50%;
+    height: 80%;
+    border-radius: 2em;
     transform: rotate(10deg);
 }
 
 .about-bottom-right {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .about-bottom-right-main {
-    width: 80%;
+    max-width: 80%;
     text-align: justify;
+    font-size: 1.6rem;
+    margin: 1.6rem;
 }
 
 .about-bottom-right-boxes {
-    width: 80%;
+    max-width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 30px;
-    column-gap: 10px;
+    margin-top: 3em;
+    column-gap: 1em;
 }
 
 .location-area-main {
-    display: inline-block;
     background-color: #251245;
-    padding: 20px;
-    border-radius: 15px;
+    padding: 2em;
+    border-radius: 1.5em;
     border: 1px solid #2F1854;
     transition: 0.15s ease  ;
 }
@@ -66,19 +68,35 @@
 
 .location-area {
     display: flex;
-
 }
 
 .icon-gap {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .type {
     color: white;
     font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.role-value {
+    font-size: 1.6rem;
 }
 
 .location-icon, .education-icon {
-    width: 20px;
-    margin-right: 10px;
+    width: 2rem;
+    margin-right: 1em;
+}
+
+@media (max-width: 600px) {
+    .about-bottom {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .about-bottom {
+        grid-template-columns: 1fr;
+    }
 }
